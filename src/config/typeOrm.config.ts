@@ -14,3 +14,13 @@ export const typeOrmConfig: TypeOrmModuleOptions = {
     autoLoadEntities: true,
     synchronize: true,
 } 
+
+// import { TypeOrmModuleOptions } from "@nestjs/typeorm"
+// import { DataSource } from "typeorm"
+
+// export const typeOrmConfig = new DataSource({
+//     type: "mongodb",
+//     host: "localhost",
+//     port: 27017,
+//     database: "test",
+// })
